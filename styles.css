@@ -11,6 +11,15 @@ h1{
     font-size: 1.5rem;
 }
 
+h6{
+    text-align: center;
+    color: cadetblue;
+}
+
+span{
+    font-weight: 600;
+}
+
 .container1{
     display: flex;
     justify-content: center;
@@ -46,6 +55,10 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+::placeholder{
+    color: darkgray;
 }
 
 .button{
