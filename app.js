@@ -1,5 +1,5 @@
 
-
+//changes made
 function generate(){
     console.log("function initiated");
     let minNumber = parseInt(document.getElementById("min").value);
