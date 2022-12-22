@@ -7,9 +7,7 @@ function generate(){
     console.log(minNumber);
     console.log(maxNumber);
 
-    if (minNumber > maxNumber) {
-        [minNumber, maxNumber] = [maxNumber, minNumber];
-    }
+    
 
     const number = Math.floor(Math.random()*(maxNumber-minNumber+1)) + minNumber;
     console.log(number);
