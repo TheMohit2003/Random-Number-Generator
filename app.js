@@ -2,8 +2,8 @@
 
 function generate(){
     console.log("function initiated");
-    let minNumber = document.getElementById("min").value;
-    let maxNumber = document.getElementById("max").value;
+    let minNumber = parseInt(document.getElementById("min").value);
+    let maxNumber = parseInt(document.getElementById("max").value);
     console.log(minNumber);
     console.log(maxNumber);
 
