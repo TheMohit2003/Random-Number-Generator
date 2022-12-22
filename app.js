@@ -7,7 +7,7 @@ function generate(){
     console.log(minNumber);
     console.log(maxNumber);
 
-    const number = Math.floor(Math.random()*(maxNumber-minNumber+1))+1;
+    const number = Math.floor(Math.random()*(maxNumber-minNumber+1))+minNumber;
     console.log(number);
     document.getElementById("result").innerHTML=number;
 }
