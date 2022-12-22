@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: bottom 100px;
+    font-size:4rem;
+}
+
+
+input[type="number"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-right: 40px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 2px grey;
+}
+
+/* this removes arrows of input type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    
+  }
