@@ -48,6 +48,52 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+.button{
+    border-radius: 40px;
+    margin-left: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+    border: solid 1px black;
+}
+
+p{
+    font-weight: 900;
+    font-size: 7rem;
+    background: linear-gradient(90deg, rgb(61, 62, 67) 4%, rgb(26, 21, 22) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+a img{
+    height: 25px;
+    width: 25px;
+    margin-left: 1rem;
+}
+
+a img:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
 @media only screen and (max-width: 600px) {
-    
+
+    .container1{
+        display: block;
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+
+    input[type="number"]{
+        margin: 10px;
+    }
+
+    p{
+        display: flex;
+        flex-wrap: wrap;
+    }
   }
