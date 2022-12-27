@@ -8,6 +8,9 @@ function generate(){
     console.log(maxNumber);
 
     const number = Math.floor(Math.random()*(maxNumber-minNumber+1))+minNumber;
+    if(minNumber>=maxNumber){
+        number = "Range not possible";
+    }
     console.log(number);
     document.getElementById("result").innerHTML=number;
 }
