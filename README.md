@@ -1,7 +1,7 @@
 
 # Number generator
 
-This webpage generates a random number between a two numbers.
+This [webpage](https://themohit2003.github.io/Random-Number-Generator/) generates a random number between a two numbers.
 The number range is decided by the user itself.
 
 
@@ -14,8 +14,12 @@ The number range is decided by the user itself.
   
 
 
-## Screenshots
-![Random-Numbers](https://user-images.githubusercontent.com/99909551/209444199-cbdeccff-f345-403c-a3ff-b777a1c9751e.png)
+## Video 
+
+
+https://user-images.githubusercontent.com/99909551/209702910-f23479d8-cf5f-4457-85fb-34a03a53cff2.mp4
+
+
 
 
 
