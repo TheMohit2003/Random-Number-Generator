@@ -1,5 +1,5 @@
 
-# Number generator
+# Number Generator
 
 This [webpage](https://themohit2003.github.io/Random-Number-Generator/) generates a random number between a two numbers.
 The number range is decided by the user itself.
